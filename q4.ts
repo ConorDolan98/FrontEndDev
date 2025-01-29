@@ -1,20 +1,20 @@
 //Creating a function
 
-//a
+//a) count of the number of characters in that string
 function countCharacters(value: string):number{
     return value.length;
 }
 
 console.log(countCharacters(" test 1 "));
 
-//b
+//b) a count of the number of characters in that string, excluding spaces
 function countOnlyCharacters(value:string):number{
     return value.trim().length;
 }
 
 console.log(countOnlyCharacters(" test 1 "));
 
-//c
+//c) Combine both function created in 1 and 2
 function countCharsAndSpaces(theString:string, spaces:boolean):number{
     let num:number;
     if(spaces){

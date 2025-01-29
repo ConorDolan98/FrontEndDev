@@ -1,15 +1,15 @@
 //Creating a function
-//a
+//a) count of the number of characters in that string
 function countCharacters(value) {
     return value.length;
 }
 console.log(countCharacters(" test 1 "));
-//b
+//b) a count of the number of characters in that string, excluding spaces
 function countOnlyCharacters(value) {
     return value.trim().length;
 }
 console.log(countOnlyCharacters(" test 1 "));
-//c
+//c) Combine both function created in 1 and 2
 function countCharsAndSpaces(theString, spaces) {
     var num;
     if (spaces) {
